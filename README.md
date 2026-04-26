@@ -1,3 +1,12 @@
+
+## Architecture
+
+<img width="1024" height="1024" alt="high_level" src="https://github.com/user-attachments/assets/ed04f93b-7d3d-43ad-a597-5d036d1eed5a" />
+
+<img width="1024" height="1024" alt="low_level_uml" src="https://github.com/user-attachments/assets/f81b31c5-7fc2-4483-bedf-6446b2c7f40e" />
+
+---
+
 # ObjectPoolSystem
 
 A .NET 8 Web API demonstrating the **Object Pool design pattern** using Clean Architecture.  
@@ -103,11 +112,6 @@ dotnet run
 
 ---
 
-## Architecture
-
-![UML Diagram](./uml.png)
-
----
 
 ## Environment Variables Reference
 
