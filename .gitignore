@@ -1,0 +1,99 @@
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+bin/
+obj/
+
+
+ObjectPoolSystem.Domain/bin/
+ObjectPoolSystem.Domain/obj/
+
+
+ObjectPoolSystem.Application/bin/
+ObjectPoolSystem.Application/obj/
+
+
+ObjectPoolSystem.Infrastructure/bin/
+ObjectPoolSystem.Infrastructure/obj/
+
+
+ObjectPoolSystem.WebApi/bin/
+ObjectPoolSystem.WebApi/obj/
+
+
+ObjectPoolSystem.WebApi/appsettings.Development.json
+
+**/appsettings.Development.json
+**/appsettings.development.json
+
+.env
+**/.env
+ObjectPoolSystem.WebApi/.env
+
+# ---------------------------------------------------------------
+# Temporary / backup files created by tooling
+# ---------------------------------------------------------------
+*.tmp
+*.Backup.tmp
+*.csproj.user
+
+# ---------------------------------------------------------------
+# Log files written at runtime
+# ---------------------------------------------------------------
+ObjectPoolSystem.WebApi/app_logs*.txt
+**/app_logs*.txt
+*.log
+logs/
+
+# ---------------------------------------------------------------
+# NuGet
+# ---------------------------------------------------------------
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
+
+# ---------------------------------------------------------------
+# .NET / MSBuild generated files
+# ---------------------------------------------------------------
+*.user
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Pp]ublish/
+publish/
+
+# ---------------------------------------------------------------
+# Test results & coverage
+# ---------------------------------------------------------------
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+
+# ---------------------------------------------------------------
+# Rider / JetBrains
+# ---------------------------------------------------------------
+.idea/
+*.DotSettings.user
+
+# ---------------------------------------------------------------
+# macOS / Linux housekeeping (safe to include cross-platform)
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
